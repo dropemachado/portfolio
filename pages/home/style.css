@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  margin: 10px;
+  border: 80px;
+  color: black;
+  border-color: black;
+  gap: 10px;
+}
+
+main {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  position: relative;
+  margin-bottom: 160px;
+}
+
+.hero-img {
+  height: 600px;
+  width: 1110px;
+}
+
+.hero-text {
+  height: 340px;
+  width: 430px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  background-color: #fff;
+  padding-top: 35px;
+}
+
+.sobre-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 108px;
+  gap: 120px;
+}
+
+.sobre-foto {
+  width: 550px;
+  height: 620px;
+}
+
+.titulo {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+}
+
+.sobre-texto {
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  border-bottom: 1px solid rgba(52, 51, 61, 0.15);
+  border-top: 1px solid rgba(52, 51, 61, 0.15);
+  padding: 46px 0;
+  gap: 30px;
+}
+
+.sobre-texto button {
+  align-self: center;
+}
+
+h1,
+h2 {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+.hero-text h1 {
+  all: unset;
+  font-family: Ibarra Real Nova;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -0.5px;
+  height: 200px;
+  width: 310px;
+  color: #33323d;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.hero-text a {
+  position: relative;
+  left: 40px;
+  color: white;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.botao-sobre {
+  all: unset;
+  display: flex;
+  height: 48px;
+  width: 200px;
+  align-items: center;
+  margin-top: 27px;
+  background-color: rgb(51, 50, 61, 0.97);
+}
+
+.imagem-botao-sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 48px;
+  background-color: #33323d;
+}
+
+.botao-sobre:hover {
+  background-color: rgb(95, 180, 162, 0.92);
+
+  .imagem-botao-sobre {
+    background-color: rgb(95, 180, 162);
+  }
+
+  .imagem-botao-sobre svg g {
+    stroke: white;
+  }
+}
+
+.header-link {
+  color: #33323d;
+}
+
+.header-link:hover,
+.active {
+  color: #5fb4a2;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 165px;
+  font-family: "Public Sans", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+
+.imagem-portfolio {
+  width: 1110px;
+  height: 500px;
+  left: 165px;
+  top: 190px;
+}
+
+.h1-portfolio {
+  height: 42px;
+  width: 350px;
+  font-family: Ibarra Real Nova;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428656578064px;
+  text-align: left;
+  color: #33323d;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.texto-portfolio {
+  height: 120px;
+  width: 350px;
+  top: 71px;
+  font-family: Public Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #33323d;
+}
+
+.contato-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+  padding: 0 165px;
+}
+
+.contato-section h2 {
+  width: 367px;
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.3571428656578064px;
+  text-align: left;
+  color: #33323d;
+}
+
+.botao-contato {
+  all: unset;
+  display: flex;
+  height: 48px;
+  width: 200px;
+  background-color: white;
+  align-items: center;
+  border: solid 0.4px;
+  justify-content: center;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #33323d;
+}
+
+.botao-contato:hover {
+  background-color: #33323d;
+  color: white;
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  height: auto;
+  background-color: #33323d;
+  padding: 15px;
+}
+
+.footer-link {
+  color: white;
+}
+
+footer {
+  font-style: unset;
+  display: flex;
+  justify-content: right;
+  background-color: #33323d;
+  padding: 0 165px;
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
